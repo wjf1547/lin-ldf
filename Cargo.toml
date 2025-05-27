@@ -11,7 +11,7 @@ categories = ["development-tools"]
 keywords = ["ldf", "parser", "lin", "linbus", "automotive"]
 
 [lib]
-name = "rust_lib"
+name = "lin-ldf"
 crate-type = ["cdylib"]
 
 [dependencies]
