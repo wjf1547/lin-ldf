@@ -10,5 +10,9 @@ repository = "https://github.com/zpg6/lin-ldf"
 categories = ["development-tools"]
 keywords = ["ldf", "parser", "lin", "linbus", "automotive"]
 
+[lib]
+name = "rust_lib"
+crate-type = ["cdylib"]
+
 [dependencies]
 nom = "7.1.3"
