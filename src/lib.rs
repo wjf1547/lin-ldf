@@ -151,6 +151,6 @@ pub use ldf::ldf_signal_encoding_types::LdfSignalEncodingTypeValue;
 pub use ldf::ldf_signals::LdfSignalInitValue;
 pub use ldf::LinLdf;
 
-pub fn parse_ldf(ldf: &str) -> Result<LinLdf, &'static str> {
+pub extern "C" fn parse_ldf(ldf: &str) -> Result<LinLdf, &'static str> {
     ldf::LinLdf::parse(ldf)
 }
